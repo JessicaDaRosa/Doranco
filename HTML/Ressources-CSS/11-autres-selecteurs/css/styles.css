@@ -1,0 +1,91 @@
+/*
+    Author  : nom de l'auteur ou e-mail
+    Date    : jj/mm/aa
+    Version : V.1.0
+*/
+
+/*---------------------------------------------------------------------*/
+/* GLOBAL */
+/*---------------------------------------------------------------------*/
+body {
+	color: #666;
+	background-color: #fff;
+}
+/* typo */
+/*--------------------*/
+h1, h2, h3, h4, h5, h6 {
+	color: #da5488;
+}
+
+/* others */
+/*--------------------*/
+
+/* links */
+/*--------------------*/
+a {
+	color: #039be5;
+}
+
+a:hover {
+	text-decoration: none;
+}
+
+/* forms */
+/*--------------------*/
+
+/* table */
+/*--------------------*/
+
+/* buttons */
+/*--------------------*/
+
+/*---------------------------------------------------------------------*/
+/* LAYOUT */
+/*---------------------------------------------------------------------*/
+
+/* header */
+/*--------------------*/
+
+/* nav */
+/*--------------------*/
+nav {
+	background-color: #666;
+}
+nav a { /* sélécteur hierarchique */
+	color: #fff;
+}
+/* main */
+/*--------------------*/
+
+p:first-child,
+p:last-child {
+	background-color: #ddd;
+}
+p:nth-child(3) {
+	background-color: #000;
+}
+p:nth-child(3n+1) {
+	color: #da5488;
+}
+p:first-letter {
+	background-color: #da5488;
+	color: #fff;
+	font-size: 25px;
+}
+p:first-line {
+	color: #da5488;
+}
+/* aside */
+/*--------------------*/
+
+/* footer */
+/*--------------------*/
+
+
+
+
+
+
+
+
+

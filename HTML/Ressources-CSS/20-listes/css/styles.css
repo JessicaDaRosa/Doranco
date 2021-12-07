@@ -1,0 +1,151 @@
+/*
+    Author  : nom de l'auteur ou e-mail
+    Date    : jj/mm/aa
+    Version : V.1.0
+*/
+
+/*---------------------------------------------------------------------*/
+/* GLOBAL */
+/*---------------------------------------------------------------------*/
+body {
+	font-family: 'Roboto', sans-serif;
+	/*font-family: Arial, Helvetica, sans-serif;*/
+	font-size: 16px;
+	color: #666;
+	line-height: 1.5;
+	background-color: #fff;
+}
+/* typo */
+/*--------------------*/
+h1, h2, h3, h4, h5, h6 {
+	font-family: 'Raleway', sans-serif;
+	color: #da5488;
+	line-height: 1.2;
+}
+h1 {
+	font-size: 45px;
+}
+h2 {
+	font-size: 30px;
+}
+h3 {
+	font-size: 25px;
+}
+h4 {
+	font-size: 20px;
+}
+h5 {
+	font-size: 18px;
+}
+h6 {
+	font-size: 16px;
+}
+
+/* others */
+/*--------------------*/
+
+/* links */
+/*--------------------*/
+a {
+	color: #039be5;
+}
+
+a:hover {
+	text-decoration: none;
+}
+
+/* forms */
+/*--------------------*/
+
+/* table */
+/*--------------------*/
+
+/* buttons */
+/*--------------------*/
+
+/*---------------------------------------------------------------------*/
+/* LAYOUT */
+/*---------------------------------------------------------------------*/
+
+/* header */
+/*--------------------*/
+header {
+	background-color: #da5488;
+	text-align: center;
+}
+header h1 {
+	color: #fff;
+}
+/* nav */
+/*--------------------*/
+nav {
+	text-align: center;
+	background-color: #333;
+}
+nav a {
+	color: #fff;
+	text-decoration: none;
+}
+/* main */
+/*--------------------*/
+ul {
+	background-color: #da5488;
+	color: #fff;
+	list-style-position: inside;
+	list-style-type: disc;
+}
+li {
+	background-color: #333;
+}
+ol {
+	list-style-type: decimal;
+	list-style-type: lower-alpha;
+	list-style-type: upper-alpha;
+	list-style-type: lower-roman;
+	list-style-type: upper-roman;
+	list-style-type: none;
+}
+ol li {
+	background-color: transparent;
+}
+ol ul {
+	background-color: transparent;
+	color: inherit;
+}
+article a {
+	text-decoration: none;
+}
+section h2{
+	background-color: #da5488;
+	color: #fff;
+}
+/* aside */
+/*--------------------*/
+
+/* footer */
+/*--------------------*/
+
+footer {
+	text-align: center;
+	background-color: #333;
+	color: #fff;
+}
+footer p {
+	font-size: 20px;
+	font-weight: 700;
+}
+footer a {
+	color: #fff;
+}
+
+
+
+
+
+
+
+
+
+
+
+

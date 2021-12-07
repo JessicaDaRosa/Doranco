@@ -1,0 +1,139 @@
+/*
+    Author  : nom de l'auteur ou e-mail
+    Date    : jj/mm/aa
+    Version : V.1.0
+*/
+
+/*---------------------------------------------------------------------*/
+/* GLOBAL */
+/*---------------------------------------------------------------------*/
+body {
+	/*Les sans serif
+	Famille générique comprenant des polices sans empattement pour le texte d’usage général*/
+	font-family: Arial, Helvetica, sans-serif;
+	font-family: Tahoma, Geneva, sans-serif;
+	font-family: Verdana, Geneva, sans-serif;
+	/*Les serif
+	Famille générique comprenant des polices à empattement pour le texte d’usage général*/
+	font-family: 'Times New Roman', Times, serif;
+	font-family: 'Palatino Linotype', 'Book Antiqua', Palatino, serif;
+	font-family: Georgia, serif;
+	/*Les monospace
+	Famille générique comprenant des polices à chasse fixe
+	*/
+	font-family: 'Courier New', Courier, modern, monospace;
+	font-family: 'Lucida Console', Monaco, monospace;
+	font-family: 'Andale Mono', monospace;
+	/*Les cursives
+	Famille générique comprenant des polices dites « cursives », 
+	cherchant à imiter l’écriture manuscrite*/
+	font-family: 'Comic Sans MS', 'Comic Sans', 'Lucida Handwriting', script, cursive;
+	font-family: 'Lucida Caligraphy', 'Monotype Corsiva', cursive;
+
+	/*Les fantaisies
+	Famille générique comprenant des polices dites « fantaisies » ou décoratives, 
+	et habituellement non destinée à la lecture de longs textes*/
+
+	font-family: Impact, Charcoal, decorative, fantasy;
+	font-family: 'Arial Black', Gadget, fantasy;
+
+	font-family: Arial, Helvetica, sans-serif;
+
+	font-size: 16px;
+	color: #666;
+
+	line-height: 1.5;
+
+	background-color: #fff;
+}
+/* typo */
+/*--------------------*/
+h1, h2, h3, h4, h5, h6 {
+	color: #da5488;
+	line-height: 1.2;
+}
+h1 {
+	font-size: 45px;
+}
+h2 {
+	font-size: 30px;
+}
+h3 {
+	font-size: 25px;
+}
+h4 {
+	font-size: 20px;
+}
+h5 {
+	font-size: 18px;
+}
+h6 {
+	font-size: 16px;
+}
+.titre {
+	line-height: 300px;
+	background-color: #333;
+}
+/* others */
+/*--------------------*/
+
+/* links */
+/*--------------------*/
+a {
+	color: #039be5;
+}
+
+a:hover {
+	text-decoration: none;
+}
+
+/* forms */
+/*--------------------*/
+
+/* table */
+/*--------------------*/
+
+/* buttons */
+/*--------------------*/
+
+/*---------------------------------------------------------------------*/
+/* LAYOUT */
+/*---------------------------------------------------------------------*/
+
+/* header */
+/*--------------------*/
+
+/* nav */
+/*--------------------*/
+nav {
+	background-color: #666;
+}
+nav a { /* sélécteur hierarchique */
+	color: #fff;
+}
+/* main */
+/*--------------------*/
+p {
+	font-size: 20px;
+	color: #333;
+}
+div p:nth-child(1) {
+	font-style: italic;
+}
+div p:nth-child(2) {
+	font-weight: 700;
+}
+/* aside */
+/*--------------------*/
+
+/* footer */
+/*--------------------*/
+
+
+
+
+
+
+
+
+

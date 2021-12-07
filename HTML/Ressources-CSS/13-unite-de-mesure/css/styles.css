@@ -1,0 +1,106 @@
+/*
+    Author  : nom de l'auteur ou e-mail
+    Date    : jj/mm/aa
+    Version : V.1.0
+*/
+
+/*---------------------------------------------------------------------*/
+/* GLOBAL */
+/*---------------------------------------------------------------------*/
+body {
+	font-size: 16px;
+	color: #666;
+	background-color: #fff;
+}
+/* typo */
+/*--------------------*/
+h1, h2, h3, h4, h5, h6 {
+	color: #da5488;
+}
+h1 {
+	font-size: 45px;
+}
+h2 {
+	font-size: 30px;
+}
+h3 {
+	font-size: 25px;
+}
+h4 {
+	font-size: 20px;
+}
+h5 {
+	font-size: 18px;
+}
+h6 {
+	font-size: 16px;
+}
+/* others */
+/*--------------------*/
+
+/* links */
+/*--------------------*/
+a {
+	color: #039be5;
+}
+
+a:hover {
+	text-decoration: none;
+}
+
+/* forms */
+/*--------------------*/
+
+/* table */
+/*--------------------*/
+
+/* buttons */
+/*--------------------*/
+
+/*---------------------------------------------------------------------*/
+/* LAYOUT */
+/*---------------------------------------------------------------------*/
+
+/* header */
+/*--------------------*/
+
+/* nav */
+/*--------------------*/
+nav {
+	background-color: #666;
+}
+nav a { /* sélécteur hierarchique */
+	color: #fff;
+}
+/* main */
+/*--------------------*/
+#header-article {
+	background-color: #4a4a4a;
+	color: #fff;
+}
+#header-article h2,
+#header-article a {
+	color: #fff;
+}
+
+article {
+	background-color: #ddd;
+}
+section h2 {
+	background-color: #da5488;
+	color: #fff;
+}
+/* aside */
+/*--------------------*/
+
+/* footer */
+/*--------------------*/
+
+
+
+
+
+
+
+
+

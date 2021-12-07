@@ -1,0 +1,171 @@
+/*
+    Author  : nom de l'auteur ou e-mail
+    Date    : jj/mm/aa
+    Version : V.1.0
+*/
+/*Valeurs du plus petit au plus grand 
+0,0,0 : sélecteur universel *, et style du navigateur
+0,0,1 : sélecteur d’éléments div, p
+0,1,0 : une classe .my-class
+0,1,0 : une sélecteur d’attribut [class*="col-"]
+0,1,0 : une pseudo-classe :only-of-type
+1,0,0 : un ID #my-id
+1,0,0,0 : un style en ligne <ul style="padding: 0;">...</ul>
+1,0,0,0,0 : !important*/
+/*---------------------------------------------------------------------*/
+/* GLOBAL */
+/*---------------------------------------------------------------------*/
+body {
+	font-family: 'Roboto', sans-serif;
+	/*font-family: Arial, Helvetica, sans-serif;*/
+	font-size: 16px;
+	color: #666;
+	line-height: 1.5;
+	background-color: #fff;
+}
+/* typo */
+/*--------------------*/
+h1, h2, h3, h4, h5, h6 {
+	font-family: 'Raleway', sans-serif;
+	color: #da5488;
+	line-height: 1.2;
+}
+h1 {
+	font-size: 45px;
+}
+h2 {
+	font-size: 30px;
+	color: blue;
+}
+h3 {
+	font-size: 25px;
+}
+h4 {
+	font-size: 20px;
+}
+h5 {
+	font-size: 18px;
+}
+h6 {
+	font-size: 16px;
+}
+
+/* others */
+/*--------------------*/
+
+/* links */
+/*--------------------*/
+a {
+	color: #039be5;
+}
+
+a:hover {
+	text-decoration: none;
+}
+
+/* forms */
+/*--------------------*/
+
+/* table */
+/*--------------------*/
+
+/* buttons */
+/*--------------------*/
+
+/*---------------------------------------------------------------------*/
+/* LAYOUT */
+/*---------------------------------------------------------------------*/
+
+/* header */
+/*--------------------*/
+header {
+	background-color: #da5488;
+	text-align: center;
+}
+header h1 {
+	color: #fff;
+}
+/* nav */
+/*--------------------*/
+nav {
+	text-align: center;
+	background-color: #333;
+}
+nav a {
+	color: #fff;
+	text-decoration: none;
+}
+/* main */
+/*--------------------*/
+p {
+	background-color: #da5488;
+	color: #fff;
+	/*padding: 20px;*/
+	/*padding-top: 20px;
+	padding-bottom: 20px;
+	padding-left: 30px;
+	padding-right: 30px;*/
+	/*padding: 20px 30px 20px 30px;*/
+	padding: 60px 30px;
+
+	border:10px solid #333;
+
+/*	margin: 20px;*/
+	/*margin-top: 50px;
+	margin-bottom: 50px;
+	margin-left: 20px;
+	margin-right: 20px;*/
+
+	/*margin: 50px 20px 50px 20px;*/
+	/*margin: 50px 20px;*/
+
+	width: 500px;
+
+	/*500px + 30px + 30px + 10px +10px = 580px*/
+
+	width: 420px;
+
+	/*Le modèle de boîte décomposé :*/
+	/*1er plan*/
+	/*margin - background-color*/
+
+	/*2eme plan*/
+	/*background-image*/
+
+	/*3eme plan*/
+	/*border - padding*/
+	
+	/*4eme plan*/
+	/*contenu*/
+
+}
+/* aside */
+/*--------------------*/
+
+/* footer */
+/*--------------------*/
+
+footer {
+	text-align: center;
+	background-color: #333;
+	color: #fff;
+}
+footer p {
+	font-size: 20px;
+	font-weight: 700;
+}
+footer a {
+	color: #fff;
+}
+
+
+
+
+
+
+
+
+
+
+
+

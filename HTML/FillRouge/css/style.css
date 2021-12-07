@@ -1,0 +1,240 @@
+/* RESET */
+    *{
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+    }
+/* COMMON CLASSES */
+    .flex{
+        display: flex;
+    }
+    .align-center{
+        align-items: center;
+    }
+    .justify-center{
+        justify-content: center;
+    }
+    .justify-between{
+        justify-content: space-between;
+    }
+    .justify-column{
+        flex-direction: column;
+    }
+    .icon{
+        height: 5.5rem;
+        width: 5.5rem;
+    }
+    .color-tan{
+        color: #EBEBE8;
+    }
+/* COMMON STYLES */
+    body{
+        background: url("../img/bg.jpg") no-repeat center;
+        background-size: cover;
+    }
+
+/* header */
+    /* white space */
+    .white-space{
+        height: 10rem;
+    }
+    /* LOGO */
+        .logo{
+        
+            background: url("../img/plant-pot.png") no-repeat center;
+            border: 1px solid #EBEBE8;
+            border-radius: 100%;
+            background-size: 60%;
+        }
+        
+    /* VERTICAL line */
+        .vertical-line{
+            height: 3rem;
+            border-left: 2px solid #EBEBE8;
+            position: absolute;
+            left: 50%;
+        }
+        /* Top */
+            .top-line{
+                top: 15.5rem;
+            }
+        /* Bottom */
+            .bottom-line{
+                top: 30.6rem;
+            }
+    /* TEXT */
+        .title-box{
+            top: 18.5rem;
+            position: absolute;
+            border-top: 1px solid #EBEBE8;
+            border-bottom: 1px solid #EBEBE8;
+            padding: 1rem;
+        }
+        .title-box h1 {
+            padding: 2rem 0 1rem;
+        }
+        .title-box p:nth-child(2){
+            padding: 0 0 0.5rem;
+        }
+        .title-box p:nth-child(3){
+            padding: 0 0 2rem;
+        }
+
+    /* NAVIGATION BAR */
+        nav{
+            top: 18.1rem;
+            left: 5.3%;
+        }
+        nav, nav ul, nav ul li{
+            position: relative;
+        }
+        nav ul{
+            border: 2px solid #EBEBE8;
+        }
+        nav ul li{
+            padding: 0.5rem 2rem;
+            list-style: none;
+            border-left: 2px solid #EBEBE8;
+        }
+/* main */
+    .main-container{
+        position: absolute;
+        top: 10rem;
+        width: 60%;
+        background-color: rgba(186, 183, 108, 1);
+        border-radius: 6px;
+        padding:  0% 5%;
+        text-decoration: none;
+        cursor: pointer;
+        transition: all 0.3s ease-out;
+    }
+    .pop-upbutton:active #header {
+        visibility: none;
+    }
+    .main-container h2{
+        padding: 5% 0;
+        text-decoration: underline;
+        text-underline-offset: 12px;
+    }
+    .main-container span{
+        padding-top: 2%;
+        padding-bottom: 4%;
+    }
+    .main-container span p{
+        padding: 2% 0;
+    }
+    .overlay{
+        transition: opacity 0.5s;
+        visibility: hidden;
+        opacity: 0;      
+    }
+    .overlay:target {
+        visibility: visible;
+        opacity: 1;
+      }
+      .popup {
+        position: relative;
+        transition: all 0.5s ease-in-out;
+      }
+      .popup .close {
+        transition: all 200ms;
+      }
+    .img{
+        height: 150px;
+        width: 100%;
+        border-radius: 4px;
+    }
+    .img-intro{
+        background: url("../img/pic01.jpg") no-repeat center;
+        background-size: cover;
+    }
+    .img-work{
+        background: url("../img/pic02.jpg") no-repeat center;
+        background-size: cover;
+    }
+    .img-about{
+        background: url("../img/pic03.jpg") no-repeat center;
+        background-size: cover;
+    }
+    /* CONTACT FORM */
+    .close-x{
+        padding-top: 5%;
+        padding-left: 100%;
+    }
+    .id{
+        padding-top: 1rem;
+        padding-bottom: 1rem;
+    }
+    .id div label,
+    .message label{
+        padding-bottom: 1rem;
+    }
+    .half{
+        width: 49%;
+    }
+    .message{
+        padding-bottom: 1rem;
+    }
+    #name,
+    #e-mail{
+        padding: 0.5rem;
+    }
+    #name,
+    #e-mail,
+    #message{
+        top: -10rem;
+        border-radius: 6px;
+        background: none;
+        border: 2px solid #EBEBE8;
+        
+    }
+    #message{
+        height: 10rem;
+        padding: 0rem 5px;
+    }
+    .button{
+        padding: 1rem;
+        border-radius: 6px;
+        border: 2px solid #EBEBE8;
+    }
+    .send-button{
+        background: #EBEBE8;        
+        color: rgba(186, 183, 108, 1); 
+    }
+    .reset-button{
+        background: transparent;
+
+        color: #EBEBE8;
+    }
+    .sotial-container{
+        width: 25%;
+        list-style: none;
+        padding-top: 1rem;
+        padding-bottom: 3rem;
+
+    }
+    .sotial-icon{
+        width: 30px;
+        height: 30px;
+        border: 2px solid #EBEBE8;
+        border-radius: 100%;
+    }
+    
+/* COPYWRIGHT */
+    footer{
+        position: relative;
+        display: flex;
+        top: 30rem;
+        justify-content: center;
+    }
+    .copy-container{
+        
+        display: flex;
+    
+        /* position: absolute; */
+        justify-content: center;
+    }
+    .copywright{
+        /* position: absolute; */
+        top:50rem;
+    }

@@ -1,0 +1,34 @@
+header
+	h1
+nav
+	a
+	a
+	a
+main
+	article
+		h2
+		p
+		a
+	section
+		article
+		h2
+		p
+		a
+
+		article
+		h2
+		p
+		a
+
+	section
+		article
+		h2
+		p
+		a
+
+		article
+		h2
+		p
+		a
+
+

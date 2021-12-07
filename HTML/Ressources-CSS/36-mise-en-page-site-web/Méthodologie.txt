@@ -1,0 +1,9 @@
+Étape 1 - Schéma sémantique
+Étape 2 - Saisie du code
+Étape 3 - Valider son code au W3C
+Étape 4 - Partir d’un modèle CSS - Framework CSS
+Étape 5 - Styler les styles de base
+Étape 6 - Positionner les éléments
+Étape 7 - Embellir
+Étape 8 - Valider son code au W3C
+Étape 9 - Préfixer son code CSS

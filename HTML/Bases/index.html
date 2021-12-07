@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h1>Page 1</h1>
+    
+    <h2>Paragraphe et Lien</h2>
+    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum</p>
+    <a href="page2.html">Lien vers page 2</a>
+    
+    <h2>Listes</h2>
+    <p>liste non ordone ul </p>
+    <ul>
+        <li>Banana</li>
+        <li>orenage</li>
+        <li>mangue</li>
+    </ul>
+    <p>liste ordone ol</p>
+    <ol>
+        <li>thing 1</li>
+        <li>thing 2</li>
+        <li>thing 3</li>
+    </ol>
+    <p>liste de navigation</p>
+    <ul>
+        <li><a href="index.html">page 1</a></li>
+        <li><a href="page2.html">page 2</a></li>
+    </ul>
+    <h2>Tables</h3>
+        <table border="1">
+            <thead>
+                <th>titre 1</th>
+                <th>titre 2</th>
+                <th>titre 3</th>
+            </thead>
+            <tbody>
+                <tr>
+                    <td rowspan="2">
+                        cell 1
+                    </td>
+                    <td> cell 2</td>
+                    <td>cell 3</td>
+                </tr>
+                <tr>
+                    <td>cell 2</td>
+                    <td>cell 2</td>
+                </tr>
+                <tr>
+                    <td>cell 1</td>
+                    <td>cell 2</td>
+                    <td>cell 3</td>
+                </tr>
+            </tbody>
+            <tfoot>
+                <tr>
+                    <th>Total</th>
+                    <td colspan="2">151€</td>
+                </tr>
+            </tfoot>
+        </table>
+    
+    <h2>Formulaires</h2>
+
+    <form action="" method="POST">
+        <label for="firstName">Your first name: </label>
+        <input type="text" id="firstName">
+        <br>
+        <br>    
+        <label for="eMail">E-mail:</label>
+        <input type="email" name="" id="eMail" value="test@mail.com">
+        <br>
+        <br>
+        <label for="birthday">Birthday:</label>
+        <input type="date" name="" id="birthday">
+        <br>
+        <br>
+        <label for="password">Password:</label>
+        <input type="password" name="" id="password">
+        <br>
+        <p>Your hobbies:</p>
+        <input type="checkbox" name="hobbie" id="cinema">
+        <label for="cinema">Cinema</label>
+        <br>  
+        <input type="checkbox" name="hobbie" id="theatre">
+        <label for="theatre">Theatre</label>
+        <br>
+        <input type="checkbox" name="hobbie" id="musique">
+        <label for="musique">Musique</label>
+        <br>
+        <br>
+        <p>Chose your sex</p>
+        <label for="m">Male:</label>
+        <input type="radio" name="sex" id="m">
+        <label for="f">Female:</label>
+        <input type="radio" name="sex" id="f">
+        <br>
+        <label for="country">Chose your country</label>
+        <select name="country" id="country">
+            <option value="fr">France</option>
+            <option value="sp">Spain</option>
+            <option value="it">Itally</option>
+            <option value="br">Brazil</option>
+
+        </select>
+        <br>
+        <input type="submit" value="Send">
+        <input type="reset" value="Reset">
+    </form>
+    <br>
+    <h2>les Images</h2>
+    <!-- JPG -->
+    <!-- PNG -->
+    <!-- SVG -->
+    <!-- GIF -->
+    <img src="img/cat.jpeg" alt="cat sleeping" srcset="" height="100">
+    
+</body>
+</html>

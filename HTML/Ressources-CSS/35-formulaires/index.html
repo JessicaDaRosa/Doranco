@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="fr">
+	<head>
+		<meta charset="utf-8">
+
+		<title>Les formulaires</title>
+
+		<meta name="description" content="La description de la page pour le SEO">
+		
+		<link href="https://fonts.googleapis.com/css?family=Raleway:300,700|Roboto:400,700&display=swap" rel="stylesheet">
+
+		<link rel="stylesheet" type="text/css" href="fonts/fontawesome/css/all.min.css">
+
+		<link rel="stylesheet" href="css/styles.css">
+
+	</head>
+	<body>
+	<div class="wrap">
+	<form method="get" action="traitement-formulaire.php">
+		<fieldset>
+			<p>
+				<label class="required" for="nom">nom</label>
+				<input id="nom" type="text" name="name" placeholder="Votre nom *" required>
+			</p>
+			<p>
+				<label class="required" for="prenom">Prénom</label>
+				<input id="prenom" type="text" name="prenom" placeholder="Votre prénom *" required>
+			</p>
+			<p>
+				<label class="required" for="mail">E-mail</label>
+				<input id="mail" type="email" name="mail" placeholder="Votre e-mail *" required>
+			</p>
+			<p>
+				<label class="required" for="phone">Téléphone</label>
+				<input id="phone" type="tel" name="phone" placeholder="Votre téléphone *" required>
+			</p>
+			<p>
+				<label for="message">Votre message</label>
+				<textarea id="message" name="message" rows="8"></textarea>
+			</p>
+							
+			<p>
+				<input class="btn" type="submit" value="Envoyer">
+			</p>
+			<p><small>* Champs obligatoires</small></p>
+		</fieldset>
+	</form>
+	</div>
+
+	</body>
+</html>
